@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  width: 50%;
+  max-width: 320px;
+  margin-bottom: 16px;
+  margin-right: 20px;
+  padding: 16px;
+}
+.appointment-star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+.star {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+.date {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 10px;
+}
